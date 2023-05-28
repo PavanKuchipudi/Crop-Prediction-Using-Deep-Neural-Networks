@@ -1,0 +1,55 @@
+we used numpy- for any numerical activities
+seaborn and matplotlib For any anlytical and visualization purpose
+Pandas- for data processing
+and scikit learn - To make use of various machinelearning algorithms
+
+First called dataset- like we called header and top 5 records 
+then here we got information about nonnull( the value that doesnt have any empty or null)
+
+Here in DataAnalysis Part:
+we counted all the lables using this comand, like we counted how many records we have for that pirticular crop
+then we just described all the data and we check the shape like number of rows and columns
+then here we check whether there are any null values or not
+and here check whether there are any duplicates present
+and finally checking for the unique values(like values with different number)
+
+
+Coming to Exploratory Data Analysis part:
+we did graphical representationof everything we did above:
+
+using this hsitogram we can say like at pirtcular temperature how many record are there in our dataset.for example at 25 deg temp we have around 600 records
+similarly we plotted for ph value, rainfall and humidity
+here we just checking all the stastics of the data again
+Then we have histogram again to see the median temperatures ranging from 15 to 28 degress.
+again we have histogram about humidity and ph when the temerature is less than 25 degress.
+then we have a booxplot which indicated the temperature of each and every lable.
+
+
+correaltion between different fetures:
+in 34--it shows the depenecy on each attribute, like how much percentage dependecy, 1 is fully dependent
+in 36- in lable we have like different values like rice and everying,becuase system will never understand text values we are labelling them as numbers 
+in 37-- splitting part comes to the picture ,in x we have source values like notrigen phosphorus and in y we have values that we coverted in previous step
+
+Feature selction :
+in 40, we divided into testing and triaing, we splitted dataset into 80% for training and 20% into testing
+
+For each and every feature selection we have diffrent notebook, like for 1 for SMOT 1 for ROSE--we apply every alogrithm to each and every technique
+
+Front End:(Frameworks like flask,Django,Tkinter)
+app.py
+To build our forntend we used flask framework
+we routeed all these to html pages
+
+After running we get local host address
+admin
+admin
+
+Expaining NOTEBOOKS:
+Every feature selection we used they are predefined 
+SMooth or rows by default it will take some colums
+
+
+
+
+
+
